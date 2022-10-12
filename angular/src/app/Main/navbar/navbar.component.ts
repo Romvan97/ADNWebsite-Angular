@@ -87,7 +87,7 @@ onMousewheel($event:Event) {
 
 
 
-    // Observe Breakpoint for menu mobile/pc
+    // Observe Breakpoint for menu mobile/pc (doit activer angular material pour cet obs)
     this.breakpoint$.observe(["(max-width: 700px)"]).subscribe((result: BreakpointState) => {
 
       if (result.matches) {

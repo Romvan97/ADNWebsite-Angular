@@ -34,43 +34,208 @@
                             position: relative;
                             cursor: default;
                             >.Avatar {
-                                border: 1px solid blue;
                                 width: 100%;
                                 height: 100%;
                                 display: block;
                                 border-radius: 100%;
                                 cursor: pointer;
                             }
+                            >span {
+                                position: absolute;
+                                top: 0px;
+                                left: 0px;
+                                padding: calc(4px);
+                                background-color: rgb(48, 49, 50);
+                                color: white;
+                                font-size: 1.6em;
+                                height: 1em;
+                                width: 1em;
+                                line-height: 1;
+                                text-align: center;
+                                border-radius: 0px 0px 5px;
+                                cursor: pointer;
+                                display: none!important;
+                            }
+                        }
+                        >a.changeAvatar:hover {
+                            width: 180px;
+                            height: 180px;
+                            max-width: 100%;
+                            display: inline-block;
+                            vertical-align: top;
+                            text-decoration: none;
+                            position: relative;
+                            cursor: default;
+                            >img.Avatar {
+                                width: 100%;
+                                height: 100%;
+                                display: block;
+                                border-radius: 4px;
+                                cursor: pointer;
+                            }
+                            >span {
+                                position: absolute;
+                                top: 0px;
+                                left: 0px;
+                                padding: calc(4px);
+                                background-color: rgb(48, 49, 50);
+                                color: white;
+                                font-size: 1.6em;
+                                height: 1.5em;
+                                width: 1.6em;
+                                line-height: 1;
+                                text-align: center;
+                                border-radius: 0px 0px 5px;
+                                cursor: pointer;
+                                display: block!important;
+                                z-index: 5!important;
+                            }
+                        }
+                        >div {
+                            position: absolute;
+                            top: 0px;
+                            right: 0px;
+                            padding: 16px;
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            -webkit-box-pack: center;
+                            justify-content: center;
+                            -webkit-box-align: center;
+                            align-items: center;
+                            box-sizing: border-box;
+                            >a.edit {
+                                text-decoration: none;
+                                color: white;
+                                display: block;
+                                padding: 4px;
+                                background-color: rgb(0, 149, 255);
+                                cursor: pointer;
+                                margin: 0px 0px calc(8px);
+                                >span {
+                                    font-size: 1.8em;
+                                    height: 1em;
+                                    width: 1em;
+                                    line-height: 1;
+                                    display: block;
+                                    text-align: center;
+                                }
+                            }
+                            >a.edit:hover {
+                                color: rgb(0, 149, 255);
+                                background-color: white;
+                            }
+                            >a.view {
+                                text-decoration: none;
+                                color: white;
+                                display: block;
+                                padding: 4px;
+                                background-color: rgb(0, 149, 255);
+                                cursor: pointer;
+                                margin: 0px 0px calc(8px);
+                                >span {
+                                    font-size: 1.8em;
+                                    height: 1em;
+                                    width: 1em;
+                                    line-height: 1;
+                                    display: block;
+                                    text-align: center;
+                                }
+                            }
+                            >a.view:hover {
+                                color: rgb(0, 149, 255);
+                                background-color: white;
+                            }
+                            >a.logout {
+                                text-decoration: none;
+                                color: white;
+                                display: block;
+                                padding: 4px;
+                                background-color: rgb(0, 149, 255);
+                                cursor: pointer;
+                                >span {
+                                    font-size: 1.8em;
+                                    height: 1em;
+                                    width: 1em;
+                                    line-height: 1;
+                                    display: block;
+                                    text-align: center;
+                                }
+                            }
+                            >a.logout:hover {
+                                color: rgb(0, 149, 255);
+                                background-color: white;
+                            }
                         }
                     }
                     >.UserName {
                         margin: 0px 0px 15px;
+                        >h2 {
+                            font-weight: 600;
+                            font-size: 1.8em;
+                            line-height: 1.3em;
+                            width: 100%;
+                            margin: 0px;
+                            position: relative;
+                            text-transform: uppercase;
+                            box-sizing: border-box;
+                            text-align: center;
+                            font-family: 'Poppins';
+                            margin-block-start: 0.83em;
+                            margin-block-end: 0.83em;
+                            margin-inline-start: 0px;
+                            margin-inline-end: 0px;
+                            color: white;
+                            display: block;
+                            >span {
+                                overflow: hidden;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                                display: inline-block;
+                                max-width: 80%;
+                                padding: 0px 16px;
+                                position: relative;
+                                top: 6px;
+                                z-index: 1;
+                                background-color: rgb(48, 49, 50);
+                            }
+                        }
+                        >h2::after {
+                            content: "";
+                            position: absolute;
+                            right: 0px;
+                            bottom: 0px;
+                            height: 0.6em;
+                            margin-bottom: 0.4em;
+                            width: 100%;
+                            background-color: rgb(0, 149, 255);
+                        }
                     }
-                    >.infos-secondairesphoto {
-                        margin: 0px 0px 15px;
-                    }
+                }
+                >.infos-secondairesphoto {
+                    margin: 0px 0px 15px;
                 }
             }
         }
-        #MainContainer-Right {
-            width: 320px;
-            background-color: (255, 255, 255, 0.5);
-            display: inline-block;
-            vertical-align: top;
-            box-sizing: border-box;
-            border-radius: 4px;
-            margin: 15px 0px;
-            height: 468px;
+    }
+    #MainContainer-Right {
+        width: 320px;
+        background-color: (255, 255, 255, 0.5);
+        display: inline-block;
+        vertical-align: top;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin: 15px 0px;
+        height: 468px;
+        background-color: rgb(48, 49, 50);
+        z-index: -2!important;
+        >#first-container-right {
+            margin-top: 10px;
+            margin-right: 25px;
+            margin-left: 25px;
             background-color: rgb(48, 49, 50);
-            z-index: -2!important;
-            >#first-container-right {
-                margin-top: 10px;
-                margin-right: 25px;
-                margin-left: 25px;
-                background-color: rgb(48, 49, 50);
-                z-index: -1!important;
-            }
-            >#second-container-left {}
+            z-index: -1!important;
         }
+        >#second-container-left {}
     }
 }
