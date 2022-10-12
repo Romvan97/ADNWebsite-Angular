@@ -1,0 +1,80 @@
+<p-toast></p-toast>
+<p-toast position="top-right" key="msg"></p-toast>
+
+<div class="main-container">
+    <div class="elements-container">
+
+        <div class="reducer-container">
+            <div class="container">
+
+
+
+
+                <a href="/">
+                    <img src="/assets/img/adn_logo_blue.png" class="adn-logo-blue">
+                </a>
+                <h3>CONNECTEZ-VOUS</h3>
+
+
+
+                <div class="form-container">
+                    <form [formGroup]="form" (ngSubmit)="onLogin()">
+
+                        <div class="email-container">
+                            <label for="login-email" class="label-email">
+                                <span>Email :</span>
+                            </label>
+                            <input id="inputEmail" pInputText type="email" formControlName="loginEmail" [email]="true" aria-describedby="email-help" />
+
+
+                            <p-message severity="error" text="Le champ est invalide"></p-message>
+
+
+                            <p class="pseudo-oublie">
+                                <a>Pseudo oublié ?</a>
+                            </p>
+                        </div>
+
+
+                        <div class="password-container">
+                            <label for="login-password" class="label-password">
+                                <span>Mot de passe :</span>
+                            </label>
+                            <p-password id="inputPassword" [feedback]="false" [toggleMask]="true" formControlName="loginPassword" class="pass p-inputwrapper-focus"></p-password>
+
+                            <p-message severity="error" text="Le champ est invalide"></p-message>
+
+                            <p class="password-oublie">
+                                <a>Mot de passe oublié ?</a>
+                            </p>
+
+                        </div>
+
+
+                        <div class="checkbox-container">
+                            <div class="p-field-checkbox">
+                                <p-checkbox formControlName="loginRememberMe" [(ngModel)]="rememberMe" [binary]="true"></p-checkbox>
+                                <label class="loginremember" for="rememberMe">Se souvenir de moi</label>
+                            </div>
+
+
+
+                        </div>
+
+                        <button type="submit" class="btnSubmit">
+                            CONNEXION
+                       </button>
+
+
+                    </form>
+                </div>
+
+                <p class="newOnAdn">Nouveau sur ADN ?
+                    <a href="#" class="inscription"> S'inscrire</a>
+                </p>
+
+
+            </div>
+
+        </div>
+    </div>

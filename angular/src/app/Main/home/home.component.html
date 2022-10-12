@@ -1,0 +1,21 @@
+<ng-container *ngIf="moviesForView; else loading">
+
+
+    <div>
+        <div *ngFor="let items of moviesForView">
+            <p><span>id:</span> {{ items.id }}</p>
+
+            <p><span>title:</span> {{ items.title }}</p>
+
+            <p>acteurs:</p>
+            <p *ngFor="let i of items.actors"><span>- </span> {{ i.firstName }}</p>
+
+        </div>
+    </div>
+
+</ng-container>
+
+<!-- marquera loading tant qu'il n'y a pas de post -->
+<ng-template #loading>
+    <p>Loading...</p>
+</ng-template>

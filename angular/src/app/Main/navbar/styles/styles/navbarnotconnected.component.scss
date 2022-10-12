@@ -1,0 +1,251 @@
+:host ::ng-deep {
+    span.pi.pi-user {
+        color: rgb(0, 149, 255);
+        ;
+        font-weight: 900;
+    }
+}
+
+:host ::ng-deep {
+    div>ul>li:hover>a>.p-element>div.p-avatar {
+        background-color: rgb(34, 58, 93)!important;
+    }
+    div>ul>li>a.LinkiconSearchInmenu {
+        line-height: 5.4em;
+    }
+}
+
+li.AbonnementMain {
+    width: 148px;
+    display: inline-block;
+    >span {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        height: 100%;
+        padding: 0px 0px 0px 1.8em;
+        >div {
+            >a {
+                box-sizing: border-box;
+                position: relative;
+                display: inline-flex;
+                -webkit-box-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                justify-content: center;
+                vertical-align: middle;
+                width: auto;
+                text-transform: uppercase;
+                white-space: nowrap;
+                line-height: 1em;
+                font-family: Poppins, Arial, "Liberation Sans", FreeSans, sans-serif;
+                font-weight: 600;
+                cursor: pointer;
+                outline: none;
+                appearance: none;
+                user-select: none;
+                overflow: hidden;
+                border-style: solid;
+                border-color: white;
+                background-color: rgb(0, 222, 82);
+                border-width: 3px;
+                border-radius: 0px;
+                min-height: 37px;
+                min-width: 120px;
+                font-size: 15px;
+                padding: 0px 8px;
+            }
+        }
+        >div:hover {
+            >a {
+                box-sizing: border-box;
+                position: relative;
+                display: inline-flex;
+                -webkit-box-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                justify-content: center;
+                vertical-align: middle;
+                width: auto;
+                text-transform: uppercase;
+                white-space: nowrap;
+                line-height: 1em;
+                font-family: Poppins, Arial, "Liberation Sans", FreeSans, sans-serif;
+                font-weight: 600;
+                cursor: pointer;
+                outline: none;
+                appearance: none;
+                user-select: none;
+                overflow: hidden;
+                border-style: solid;
+                color: rgb(0, 222, 82);
+                border-color: rgb(0, 222, 82);
+                background-color: white;
+                border-width: 3px;
+                border-radius: 0px;
+                min-height: 37px;
+                min-width: 120px;
+                font-size: 15px;
+                padding: 0px 8px;
+            }
+        }
+    }
+}
+
+.pi-verified {
+    color: white;
+    align-items: center;
+    margin: 0px 0.2em;
+    font-size: 1.5em;
+    font-style: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    vertical-align: middle;
+}
+
+.pi-stop-circle {
+    color: white;
+    align-items: center;
+    margin: 0px 0.2em;
+    font-size: 1.05em;
+    font-style: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    vertical-align: middle;
+}
+
+li.free {
+    width: 125px!important;
+}
+
+span.watchlist-title::after,
+span.pi.pi-search::after {
+    height: 38.94px!important;
+}
+
+@media(max-width: 1190px) {
+    a.LinkiconSearchInmenu {
+        top: 2px;
+    }
+    li.free {
+        width: 61.22px!important;
+    }
+    .pi-verified {
+        color: white;
+        align-items: center;
+        margin: 0px 0.2em;
+        font-size: 1.5em;
+        font-style: normal;
+        font-feature-settings: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        vertical-align: middle;
+    }
+}
+
+@media(max-width: 450px) {
+    li.AbonnementMain>span {
+        width: 104px;
+        padding: 0px 10px;
+    }
+    li.AbonnementMain {
+        width: 104px;
+    }
+    a.LinkSearchInmenu,
+    a.LinkiconSearchInmenu {
+        padding: 0px 7.9px;
+    }
+    a.LinkiconSearchInmenu {
+        top: 2px;
+        left: -3px;
+    }
+    span.pi.pi-search::after {
+        display: none;
+        width: 0px;
+    }
+    li.AbonnementMain {
+        width: 148px;
+        display: inline-block;
+        >span {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            height: 100%;
+            padding: 0px 0px 0px 1.8em;
+            >div {
+                >a {
+                    left: -8px;
+                    box-sizing: border-box;
+                    position: relative;
+                    display: inline-flex;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                    vertical-align: middle;
+                    width: auto;
+                    text-transform: uppercase;
+                    white-space: nowrap;
+                    line-height: 1em;
+                    font-family: Poppins, Arial, "Liberation Sans", FreeSans, sans-serif;
+                    font-weight: 600;
+                    cursor: pointer;
+                    outline: none;
+                    appearance: none;
+                    user-select: none;
+                    overflow: hidden;
+                    border-style: solid;
+                    border-color: white;
+                    background-color: rgb(0, 222, 82);
+                    border-width: 3px;
+                    border-radius: 0px;
+                    min-height: 37px;
+                    min-width: 90px;
+                    font-size: 12px;
+                    padding: 0px 0px;
+                }
+            }
+            >div:hover {
+                >a {
+                    box-sizing: border-box;
+                    position: relative;
+                    display: inline-flex;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                    vertical-align: middle;
+                    width: auto;
+                    text-transform: uppercase;
+                    white-space: nowrap;
+                    line-height: 1em;
+                    font-family: Poppins, Arial, "Liberation Sans", FreeSans, sans-serif;
+                    font-weight: 600;
+                    cursor: pointer;
+                    outline: none;
+                    appearance: none;
+                    user-select: none;
+                    overflow: hidden;
+                    border-style: solid;
+                    color: rgb(0, 222, 82);
+                    border-color: rgb(0, 222, 82);
+                    background-color: white;
+                    border-width: 3px;
+                    border-radius: 0px;
+                    min-height: 37px;
+                    min-width: 90px;
+                    font-size: 12px;
+                    padding: 0px 0px;
+                }
+            }
+        }
+    }
+}

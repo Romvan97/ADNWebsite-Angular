@@ -1,0 +1,118 @@
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.deps.json
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csprojAssemblyReference.cache
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CoreCompileInputs.cache
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfoInputs.cache
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfo.cs
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CopyComplete
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CoreCompileInputs.cache
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfoInputs.cache
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfo.cs
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.deps.json
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CopyComplete
+C:\Users\Steve\source\repos\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.AssemblyReference.cache
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.deps.json
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.AssemblyReference.cache
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfoInputs.cache
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfo.cs
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CoreCompileInputs.cache
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CopyComplete
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\Steve\source\Perso\IMDBApi\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\elean\source\repos\MovieAPI\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.deps.json
+C:\Users\elean\source\repos\MovieAPI\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\elean\source\repos\MovieAPI\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\elean\source\repos\MovieAPI\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\elean\source\repos\MovieAPI\LocalModel\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\elean\source\repos\MovieAPI\LocalModel\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\elean\source\repos\MovieAPI\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\elean\source\repos\MovieAPI\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.AssemblyReference.cache
+C:\Users\elean\source\repos\MovieAPI\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elean\source\repos\MovieAPI\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfoInputs.cache
+C:\Users\elean\source\repos\MovieAPI\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfo.cs
+C:\Users\elean\source\repos\MovieAPI\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CoreCompileInputs.cache
+C:\Users\elean\source\repos\MovieAPI\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CopyComplete
+C:\Users\elean\source\repos\MovieAPI\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\elean\source\repos\MovieAPI\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.deps.json
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.AssemblyReference.cache
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfoInputs.cache
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfo.cs
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CoreCompileInputs.cache
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CopyComplete
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.deps.json
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.AssemblyReference.cache
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfoInputs.cache
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfo.cs
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CoreCompileInputs.cache
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CopyComplete
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.deps.json
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.AssemblyReference.cache
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfoInputs.cache
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfo.cs
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CoreCompileInputs.cache
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CopyComplete
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.deps.json
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\bin\Debug\netcoreapp3.1\LocalModel.pdb
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.AssemblyReference.cache
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfoInputs.cache
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.AssemblyInfo.cs
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CoreCompileInputs.cache
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.csproj.CopyComplete
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.dll
+C:\Users\vanmo\Desktop\LaboAngulRepos\api\LocalModel\obj\Debug\netcoreapp3.1\LocalModel.pdb

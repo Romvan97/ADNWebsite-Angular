@@ -1,0 +1,519 @@
+div {
+    margin-top: -71px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    >.elements-container {
+        background-color: rgb(48, 49, 50);
+        color: white;
+        height: calc(100vh - (2 * 16px));
+        min-height: 569px;
+        border-radius: 5px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        >.reducer-container {
+            display: block;
+            padding: 15px;
+            margin-top: -4px;
+            justify-content: center;
+            width: 270px;
+            height: 570px;
+            >.container {
+                margin-top: 0px;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media(max-width: 770px) {
+    div>.elements-container {
+        height: calc(100vh - (2 * 8px));
+        border-radius: 0px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
+
+a:link {
+    color: rgb(0, 149, 255);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+* {
+    font-family: "Poppins";
+    font-weight: 100;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-size: 2.1em;
+    margin: 0px 0px 16px;
+    line-height: 1.3em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+div.form-container {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 270px;
+    height: 335px!important;
+    text-align: center;
+}
+
+p.newOnAdn {
+    line-height: 55px;
+    font-size: 14.4px;
+    top: 60px;
+    font-weight: lighter;
+    margin: calc(8px);
+}
+
+a:link {
+    color: rgb(0, 149, 255)!important;
+}
+
+a.inscription {
+    color: rgb(0, 149, 255)!important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.inscription:hover {
+    text-decoration: underline!important;
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    min-height: 278.7px;
+}
+
+button {
+    margin: 14px 0px 0px;
+    text-transform: uppercase;
+    font-size: 1.5em!important;
+    width: max-content;
+    align-self: center;
+    color: white;
+    background-color: rgb(0, 149, 255);
+    display: inline-block;
+    line-height: 1em!important;
+    font-weight: 600;
+    border: 2px solid white;
+    text-align: center;
+    cursor: pointer;
+    padding: calc(8px) 16px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-shadow: none;
+    writing-mode: horizontal-tb!important;
+    appearance: auto;
+    font: 99% arial, helvetica, clean, sans-serif;
+    height: 35px;
+}
+
+button:hover {
+    color: rgb(0, 149, 255);
+    background-color: white;
+    border: 2px solid white;
+}
+
+div.email-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+    margin: 8px 0px;
+    >label {
+        display: inline-block;
+        color: white;
+        font-size: 1.2em;
+        text-align: left;
+        min-width: 0px;
+        margin-bottom: 8px;
+    }
+    >input.ng-valid,
+    input.ng-touched,
+    input.ng-dirty,
+    input.ng-pristine,
+    input.ng-untouched {
+        color: rgb(0, 149, 255);
+        text-overflow: ellipsis;
+        font-family: 'Poppins', Arial, "Liberation Sans", FreeSans, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        height: 40px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        border-radius: 5px;
+        width: 100%;
+        padding: 9.3px 16px 5.3px !important;
+        background-color: rgb(255, 255, 255) !important;
+        border-bottom: 4px solid transparent !important;
+        box-shadow: none!important;
+    }
+    >input.ng-valid:focus,
+    input.ng-touched:focus,
+    input.ng-dirty:focus {
+        box-shadow: none!important;
+        border-bottom: 3px solid rgb(0, 149, 255)!important;
+    }
+    >input.ng-invalid.ng-dirty {
+        border-bottom: 4px solid red!important;
+    }
+}
+
+div.password-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+    margin: 8px 0px;
+    >label {
+        display: inline-block;
+        color: white;
+        font-size: 1.2em;
+        text-align: left;
+        min-width: 0px;
+        margin-bottom: 8px;
+    }
+    >input.ng-valid,
+    input.ng-touched,
+    input.ng-dirty,
+    input.ng-pristine,
+    input.ng-untouched {
+        color: rgb(0, 149, 255);
+        text-overflow: ellipsis;
+        font-family: 'Poppins', Arial, "Liberation Sans", FreeSans, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        height: 40px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        border-radius: 5px;
+        width: 100%;
+        padding: 9.3px 16px 5.3px !important;
+        background-color: rgb(255, 255, 255) !important;
+        border-bottom: 4px solid transparent !important;
+        box-shadow: none!important;
+    }
+    >input.ng-valid:focus,
+    input.ng-touched:focus,
+    input.ng-dirty:focus {
+        box-shadow: none!important;
+        border-bottom: 3px solid rgb(0, 149, 255)!important;
+    }
+    >input.p-inputtext:focus {
+        box-shadow: none!important;
+    }
+    >input.ng-invalid.ng-dirty {
+        border-bottom: 4px solid red!important;
+    }
+}
+
+ :host ::ng-deep {
+    div {
+        width: 100%;
+        >p-password {
+            >div {
+                width: 100%;
+                position: relative;
+                display: inline-flex;
+                >input,
+                input:enabled:focus,
+                input:enabled:hover {
+                    border: none;
+                    padding: 0.75rem 0.75rem!important;
+                    width: 100%!important;
+                    padding-right: 2.5rem!important;
+                    box-sizing: border-box;
+                }
+                >i {
+                    font-family: 'primeicons';
+                    position: absolute;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-feature-settings: normal;
+                    font-variant: normal;
+                    text-transform: none;
+                    line-height: 1;
+                    display: inline-block;
+                    -webkit-font-smoothing: antialiased;
+                    font-size: 1rem;
+                    color: rgb(0, 149, 255);
+                    top: 50%;
+                    right: 0.75rem;
+                    margin-top: -0.5rem;
+                }
+                >i:last-of-type {
+                    color: rgb(0, 149, 255);
+                }
+                >i:hover {
+                    cursor: pointer;
+                }
+                >i:last-of-type:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        >p-password:hover {
+            border: none!important;
+            transform: rotateY('0');
+            size-adjust: none;
+        }
+        .p-inputtext {
+            color: rgb(0, 149, 255);
+        }
+        .p-inputtext.ng-dirty,
+        .p-inputtext.ng-valid {
+            box-shadow: none!important;
+            border-bottom: 3px solid rgb(0, 149, 255)!important;
+        }
+    }
+    .pass>div {
+        >input.ng-valid,
+        input.ng-touched,
+        input.ng-dirty,
+        input.ng-pristine,
+        input.ng-untouched {
+            width: 100%;
+            color: rgb(0, 149, 255);
+            text-overflow: ellipsis;
+            font-family: 'Poppins', Arial, "Liberation Sans", FreeSans, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            height: 40px;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-image: initial;
+            border-radius: 5px;
+            width: 100%;
+            padding: 9.3px 16px 5.3px !important;
+            background-color: rgb(255, 255, 255) !important;
+            border-bottom: 4px solid transparent !important;
+            box-shadow: none!important;
+        }
+        >input.ng-valid:focus,
+        input.ng-touched:focus,
+        input.ng-dirty:focus {
+            box-shadow: none!important;
+            border-bottom: 3px solid rgb(0, 149, 255)!important;
+        }
+        >input.p-inputtext:focus {
+            box-shadow: none!important;
+        }
+        >input.ng-invalid:focus {
+            border-bottom: 4px solid red!important;
+        }
+        >input.ng-invalid.ng-dirty {
+            border-bottom: 4px solid red!important;
+        }
+    }
+}
+
+div.checkbox-container {
+    display: block;
+    padding: 8px 0px;
+    position: relative;
+    cursor: pointer;
+    filter: none;
+    margin: 0px;
+    >div {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+p.pseudo-oublie,
+p.password-oublie {
+    text-align: end;
+    margin: calc(8px) 0px 0px;
+    text-decoration: underline;
+    color: rgb(0, 149, 255);
+    >a:link {
+        color: rgb(0, 149, 255);
+        cursor: pointer;
+    }
+}
+
+.loginremember {
+    line-height: 16px;
+    padding-left: 8px;
+    color: white;
+    font-size: 14.4px;
+    pointer-events: all;
+    user-select: none;
+    display: inline-block;
+    min-width: 100px;
+    text-align: right;
+    font-weight: lighter;
+}
+
+p-checkbox {
+    height: 14px;
+    width: 14px;
+    >div>div.p-checkbox-box {
+        height: 14px!important;
+    }
+}
+
+:host ::ng-deep {
+    div>p-password>div input:enabled:focus {
+        border-bottom: 3px solid rgb(0, 149, 255)!important;
+        height: 45px!important;
+    }
+    div>p-password.ng-invalid.ng-touched>div input {
+        border-bottom: 3px solid red!important;
+        height: 45px!important;
+    }
+    .p-checkbox-box {
+        height: 14px!important;
+        border-radius: 0.2em;
+        width: 14px;
+        margin-top: 4px;
+        >span {
+            font-size: 12px!important;
+            box-shadow: none;
+        }
+        >span.pi-check {
+            background-color: rgb(0, 149, 255);
+            border: 1px solid rgb(0, 149, 255);
+            border-radius: 0.1em;
+        }
+    }
+    .p-checkbox-box-checked {
+        background-color: red;
+    }
+    .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus {
+        box-shadow: none!important;
+        border: none;
+    }
+    .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:focus {
+        border: none;
+    }
+    .p-checkbox-box.p-highlight:hover,
+    .p-checkbox-box:hover,
+    .p-checkbox-box.p-focus {
+        border-color: rgb(0, 149, 255);
+        background: rgb(0, 149, 255);
+        box-shadow: none;
+        margin-top: 4px;
+    }
+    .p-checkbox-box:hover,
+    .p-checkbox-box.p-focus {
+        border-color: rgb(0, 149, 255);
+        background: white;
+        box-shadow: none;
+        margin-top: 4px;
+    }
+    .p-checkbox-box:hover div.p-checkbox:not(.p-checkbox-disabled).p-checkbox-box.p-focus {
+        box-shadow: none!important;
+        background: none;
+    }
+}
+
+.p-checkbox-box.p-focus,
+.p-focus {
+    border-color: rgb(0, 149, 255);
+    background: rgb(0, 149, 255);
+    box-shadow: none!important;
+}
+
+//for the toast if can't log
+:host ::ng-deep {
+    .p-toast {
+        margin-right: 0px;
+        width: 30%;
+        height: 10%;
+        border-width: 0 0 0 6px;
+        color: #2c1e30;
+        .p-toast-icon-close {
+            color: #2c1e30;
+        }
+    }
+}
+
+@media(max-width: 920px) {
+    //for the toast if can't log
+     :host ::ng-deep {
+        .p-toast {
+            margin-right: 0px;
+            width: 90%;
+            height: 10%;
+            border-width: 0 0 0 6px;
+            color: #2c1e30;
+            .p-toast-icon-close {
+                color: #2c1e30;
+            }
+        }
+    }
+}
+
+// sélectionne un element suivant une autre balise 
+input#inputEmail.ng-pristine.ng-invalid~p-message {
+    display: none!important;
+}
+
+#inputPassword.ng-pristine.ng-invalid~p-message {
+    display: none!important;
+}
+
+input#inputEmail.ng-dirty.ng-valid~p-message {
+    display: none!important;
+}
+
+#inputPassword.ng-dirty.ng-valid~p-message {
+    display: none!important;
+}
+
+:host ::ng-deep {
+    .p-inline-message.p-inline-message-error {
+        background: none;
+        border: none;
+        color: red;
+        font-size: 12px;
+        text-align: left;
+    }
+    .p-inline-message {
+        padding: 0.45rem 0.55rem 0rem 0rem;
+        justify-content: left;
+    }
+    .p-inline-message.p-inline-message-error .p-inline-message-icon {
+        color: red;
+    }
+    .p-inline-message-icon {
+        font-size: 0.8rem;
+        margin-top: 2px;
+    }
+    .p-inline-message-text {
+        font-size: 0.8rem;
+    }
+}

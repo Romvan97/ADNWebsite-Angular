@@ -1,0 +1,98 @@
+C:\Users\papa\source\repos\CorrectifIMDB\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\papa\source\repos\CorrectifIMDB\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\papa\source\repos\CorrectifIMDB\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\Users\papa\source\repos\CorrectifIMDB\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\papa\source\repos\CorrectifIMDB\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\papa\source\repos\CorrectifIMDB\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\papa\source\repos\CorrectifIMDB\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\papa\source\repos\CorrectifIMDB\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\papa\source\repos\CorrectifIMDB\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\Steve\source\Correctifs\CorrectifIMDB\AspIMDB\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\Steve\source\repos\IMDBApi\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\Steve\source\repos\IMDBApi\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Steve\source\repos\IMDBApi\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Steve\source\repos\IMDBApi\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\Steve\source\repos\IMDBApi\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\Steve\source\repos\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Steve\source\repos\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\Steve\source\repos\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\Steve\source\repos\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\Users\Steve\source\repos\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Steve\source\repos\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Steve\source\repos\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\Steve\source\Perso\IMDBApi\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\Steve\source\Perso\IMDBApi\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Steve\source\Perso\IMDBApi\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Steve\source\Perso\IMDBApi\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\Steve\source\Perso\IMDBApi\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\Steve\source\Perso\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\Steve\source\Perso\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Steve\source\Perso\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\Steve\source\Perso\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\Steve\source\Perso\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Steve\source\Perso\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\Users\Steve\source\Perso\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Steve\source\Perso\IMDBApi\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\elean\source\repos\MovieAPI\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\elean\source\repos\MovieAPI\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\elean\source\repos\MovieAPI\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\elean\source\repos\MovieAPI\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\elean\source\repos\MovieAPI\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\elean\source\repos\MovieAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\elean\source\repos\MovieAPI\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elean\source\repos\MovieAPI\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\elean\source\repos\MovieAPI\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\elean\source\repos\MovieAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\elean\source\repos\MovieAPI\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\Users\elean\source\repos\MovieAPI\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\elean\source\repos\MovieAPI\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\studentdot0410\Desktop\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\vanmo\Desktop\Cours technifutur\LaboANGULAR\MovieAPI-master\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.dll
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\DAL\bin\Debug\netcoreapp3.1\ADOToolbox.pdb
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\vanmo\Desktop\LaboAngularRepos\api\DAL\obj\Debug\netcoreapp3.1\DAL.pdb

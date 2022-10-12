@@ -1,0 +1,243 @@
+<div class="Menu">
+
+    <div class="navbar">
+        <ul class="p-menubar">
+
+            <li class="brand">
+                <a class="navbar-brand" href="/">
+                    <img src="/assets/img/adn_logo_white.svg" class="logo" width="84px">
+                </a>
+            </li>
+
+
+            <li *ngIf="!mobile" class="catalogue">
+                <a class="navbar-catalogue" href="/featureNot">
+                    <span class="pi pi-th-large"></span>
+                    <span class="catalogue-title">CATALOGUE</span>
+                </a>
+            </li>
+
+
+            <li *ngIf="!mobile" class="news">
+                <a class="navbar-news" href="/featureNot">
+                    <span class="pi pi-bolt"></span>
+                    <span class="news-title">NOUVEAUTÉS</span>
+                </a>
+            </li>
+
+            <li *ngIf="!mobile" class="series">
+                <a class="navbar-series" href="/featureNot">
+                    <span class="pi pi-youtube"></span>
+                    <span class="series-title">SÉRIES</span>
+                </a>
+            </li>
+
+            <li *ngIf="!mobile" class="films">
+                <a class="navbar-films" href="/featureNot">
+                    <span class="pi pi-video"></span>
+                    <span class="films-title">FILMS</span>
+                </a>
+            </li>
+
+            <li *ngIf="!mobile && connected" class="watchlist">
+                <a class="navbar-watchlist" href="/featureNot">
+                    <span class="pi pi-eye"></span>
+                    <span class="watchlist-title">MA WATCHLIST</span>
+                </a>
+            </li>
+
+            <li *ngIf="!mobile && !connected" class="free">
+                <a class="navbar-watchlist" href="/featureNot">
+                    <span class="pi pi-verified"></span>
+                    <span class="watchlist-title">GRATUIT</span>
+                </a>
+            </li>
+
+
+
+            <li *ngIf="!mobile" class="TV">
+                <a class="navbar-TV" href="/featureNot">
+                    <span class="pi pi-stop-circle"></span>
+                    <span class="TV-title">ADN TV+</span>
+                </a>
+            </li>
+
+
+
+
+            <li class="white-space">
+
+            </li>
+
+
+
+
+
+            <li class="search">
+
+                <a class="LinkSearchInmenu" [ngClass]="{LinkSearchInmenu: isBlur, LinkSearchInmenudown: !isBlur}" (click)="onBlur()">
+
+                    <span *ngIf="isBlur" class="pi pi-search iconSearchInmenu"></span>
+                    <span *ngIf="!isBlur" class="pi pi-search iconSearchInmenudown"></span>
+                </a>
+            </li>
+
+            <li *ngIf="!connected" class="AbonnementMain">
+                <span>
+                <div class="AbonnementContainer">
+                    <a class="Abonnement">S'ABONNER</a>
+                </div>
+</span>
+            </li>
+
+
+
+            <!-- Avatar si non connecté, ngClass -->
+
+            <li *ngIf="!connected" class="avatar">
+                <a [ngClass]="{LinkiconSearchInmenu: isBlurAvatar, LinkiconSearchInmenudown: !isBlurAvatar}" (click)="onBlurAvatar()" (click)="login(false)" routerLink="/login" routerLinkActive="active">
+
+
+                    <!-- Avatar si non connecté -->
+                    <p-avatar *ngIf="isBlurAvatar && !connected" class="avatarOfUser" shape="circle" icon="pi pi-user"></p-avatar>
+
+                    <p-avatar *ngIf="!isBlurAvatar && !connected" class="avatarOfUserDown" shape="circle" icon="pi pi-user"></p-avatar>
+
+                </a>
+            </li>
+
+            <li *ngIf="connected" class="avatar">
+                <a [ngClass]="{LinkiconSearchInmenu: isBlurAvatar, LinkiconSearchInmenudown: !isBlurAvatar}" (click)="onBlurAvatar()">
+
+                    <!-- Avatar si connecté -->
+                    <img *ngIf="isBlurAvatar && connected" class="avatarOfUser" src="../../../assets/img/ch20_bg13_green0_188.jpg">
+
+                    <img *ngIf="!isBlurAvatar && connected" class="avatarOfUserDown" src="/assets/img/ch20_bg13_green0_188.jpg">
+
+                </a>
+            </li>
+
+
+            <li *ngIf="mobile" class="menu-burger-main">
+
+                <a [ngClass]="{'menu-burger': isBlurBurgerMenu, 'menu-burgerdown': !isBlurBurgerMenu}" (click)="onBlurBurgerMenu()">
+                    <span class="pi pi-bars"></span>
+                </a>
+            </li>
+
+
+
+
+        </ul>
+
+
+
+
+    </div>
+
+    <!-- SubMenu for the search item  -->
+
+    <div [ngClass]="{up: isBlur, down: !isBlur}">
+        <div class="subMenu">
+
+            <div class="searchIcon">
+                <span class="pi pi-search"></span>
+
+            </div>
+
+            <div class="searchInput">
+
+
+                <p-autoComplete class="InputText" placeholder="Search" [(ngModel)]="text" [suggestions]="result" (completeMethod)="search($event)"></p-autoComplete>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SubMenu for the profile item -->
+
+    <div [ngClass]="{upAvatar: isBlurAvatar, downAvatar: !isBlurAvatar}">
+        <ul class="subMenuAvatar">
+
+            <li class="changeprofilMain" rippleOnHover>
+                <a class="changeprofil" href="/featureNot">CHANGER DE PROFIL</a>
+            </li>
+
+            <li class="compteMain" rippleOnHover>
+                <a class="compte" href="/featureNot">GÉRER LE COMPTE</a>
+            </li>
+
+            <li class="monprofilMain" rippleOnHover>
+                <a class="monprofil" href="/featureNot">GÉRER MON PROFIL</a>
+            </li>
+
+
+            <li *ngIf="!connected" class="ConnexionMain" rippleOnHover>
+                <a class="Connexion">CONNEXION</a>
+            </li>
+
+            <li *ngIf="connected" class="DeconnexionMain" rippleOnHover>
+                <a class="Deconnexion" (click)="logout()">DÉCONNEXION</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <!-- SubMenu for the menu-burger item -->
+
+    <div [ngClass]="{upBurgerMenu: isBlurBurgerMenu, downBurgerMenu: !isBlurBurgerMenu}">
+        <ul class="subMenuBurgerMenu">
+
+
+
+            <li *ngIf="mobile" class="catalogueBurgerMenu">
+                <a class="navbar-catalogueBurgerMenu" href="/featureNot">
+                    <span class="pi pi-th-large BurgerMenu"></span>
+                    <span class="catalogue-titleBurgerMenu">CATALOGUE</span>
+                </a>
+            </li>
+
+
+            <li *ngIf="mobile" class="newsBurgerMenu">
+                <a class="navbar-newsBurgerMenu" href="/featureNot">
+                    <span class="pi pi-bolt BurgerMenu"></span>
+                    <span class="news-titleBurgerMenu">NOUVEAUTÉS</span>
+                </a>
+            </li>
+
+            <li *ngIf="mobile" class="seriesBurgerMenu">
+                <a class="navbar-seriesBurgerMenu" href="/featureNot#">
+                    <span class="pi pi-youtube BurgerMenu"></span>
+                    <span class="series-titleBurgerMenu">SÉRIES</span>
+                </a>
+            </li>
+
+            <li *ngIf="mobile" class="filmsBurgerMenu">
+                <a class="navbar-filmsBurgerMenu" href="/featureNot">
+                    <span class="pi pi-video BurgerMenu"></span>
+                    <span class="films-titleBurgerMenu">FILMS</span>
+                </a>
+            </li>
+
+            <li *ngIf="mobile" class="watchlistBurgerMenu">
+                <a class="navbar-watchlistBurgerMenu" href="/featureNot">
+                    <span class="pi pi-eye BurgerMenu"></span>
+                    <span class="watchlist-titleBurgerMenu">MA WATCHLIST</span>
+                </a>
+            </li>
+
+
+            <li *ngIf="mobile" class="TVBurgerMenu">
+                <a class="navbar-TVBurgerMenu" href="/featureNot">
+                    <span class="pi pi-desktop BurgerMenu"></span>
+                    <span class="TV-titleBurgerMenu">ADN TV+</span>
+                </a>
+            </li>
+
+
+
+        </ul>
+    </div>
+
+
+</div>

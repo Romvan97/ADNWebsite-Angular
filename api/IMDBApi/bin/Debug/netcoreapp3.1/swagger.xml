@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IMDBApi</name>
+    </assembly>
+    <members>
+        <member name="M:IMDBApi.Controllers.AuthController.Auth(IMDBApi.Models.LoginInfo)">
+            <summary>
+            Retourne un token sur base d'un model loginInfo
+            </summary>
+            <param name="model">LoginInfo</param>
+            <returns>UserWithToken</returns>
+        </member>
+        <member name="M:IMDBApi.Controllers.CommentController.Get(System.Int32)">
+            <summary>
+            Liste des commentaires sur base de l'id d'un film
+            </summary>
+            <response code="200"></response>
+            <response code="400">Une erreur côté serveur</response>
+            <remarks></remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.CommentController.Post(LocalModel.Models.Comment)">
+            <summary>
+            Permet d'ajouter un commentaire sur un film
+            </summary>
+            <response code="200"></response>
+            <response code="400">Une erreur côté serveur</response>
+            <remarks>Accessible si connecté</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.CommentController.Delete(System.Int32)">
+            <summary>
+            Supprime un commentaire
+            </summary>
+            <response code="200"></response>
+            <response code="400">Une erreur côté serveur</response>
+            <remarks>Accessible si role Admin</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.MovieController.Get">
+            <summary>
+            Récupération de la liste complète de Movie
+            </summary>
+            <response code="200">Renvoi la liste des Movie</response>
+            <response code="400">Une erreur côté serveur</response>
+            <returns>IEnumerable de movie avec liste des acteurs, scénariste et réal</returns>
+            <remarks>Accessible à tout le monde</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.MovieController.Get(System.Int32)">
+            <summary>
+            Retourne un film sur base de son Id
+            Parametre de type entier
+            </summary>
+            <response code="200">Renvoi un Movie</response>
+            <response code="400">Une erreur côté serveur</response>
+            <returns>Objet de type movie</returns>
+            <remarks>Accessible aux Users connecté</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.MovieController.Post(LocalModel.Models.NewMovie)">
+            <summary>
+            Permet d'enregistrer un Movie
+            Nécéssite un model MovieToDal
+            </summary>
+            <response code="200">Création ok</response>
+            <response code="400">Une erreur côté serveur</response>
+            <returns>Un message en cas d'erreur</returns>
+            <remarks>Accessible au role Admin</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.MovieController.Put(LocalModel.Models.NewMovie)">
+            <summary>
+            Permet de mettre à jour un Movie sur base de son ID
+            Nécéssite un model MovieToDal
+            </summary>
+            <response code="200">Mise à jour ok</response>
+            <response code="400">Une erreur côté serveur</response>
+            <returns>Un message en cas d'erreur</returns>
+            <remarks>Accessible au role Admin</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.MovieController.Delete(System.Int32)">
+            <summary>
+            Permet de supprimer un Movie sur base de son ID
+            </summary>
+            <response code="200">Suppression ok</response>
+            <response code="400">Une erreur côté serveur</response>
+            <returns>Un message en cas d'erreur</returns>
+            <remarks>Accessible au role Admin</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.PersonController.Get(System.Int32)">
+            <summary>
+            Détail d'une personne
+            </summary>
+            <response code="200">Renvoi le détail d'une personne ainsi que sa filmographie</response>
+            <response code="400">Une erreur côté serveur</response>
+            <remarks>Accessible si connecté</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.PersonController.Post(IMDBApi.Models.Person)">
+            <summary>
+            Enregistrement d'une personne sur base d'un model Person
+            </summary>
+            <response code="200"></response>
+            <response code="400">Une erreur côté serveur</response>
+            <remarks>Accessible si role Admin</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.PersonController.Post(IMDBApi.Models.Actor)">
+            <summary>
+            Définit uen personne acteur d'un film sur base d'un model Actor
+            </summary>
+            <response code="200"></response>
+            <response code="400">Une erreur côté serveur</response>
+            <remarks>Accessible si role Admin</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.UserController.Get">
+            <summary>
+            Retourne la liste des Utilisateurs
+            </summary>
+            <response code="200"></response>
+            <response code="400">Une erreur côté serveur</response>
+            <remarks>Accessible si role Admin</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.UserController.Get(System.Int32)">
+            <summary>
+            Retourne un profil utilisateur
+            </summary>
+            <response code="200"></response>
+            <response code="400">Une erreur côté serveur</response>
+            <remarks>Accessible si connecté</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Supprime un utilisateur (soft delete)
+            </summary>
+            <response code="200"></response>
+            <response code="400">Une erreur côté serveur</response>
+            <remarks>Accessible si role Admin</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.UserController.Update(LocalModel.Models.User)">
+            <summary>
+            Mise à jour du profil utilisateur
+            </summary>
+            <response code="200"></response>
+            <response code="400">Une erreur côté serveur</response>
+            <remarks>Accessible si connecté</remarks>
+        </member>
+        <member name="M:IMDBApi.Controllers.UserController.SwitchAdmin(System.Int32)">
+            <summary>
+            Définit un utilisateur comme administrateur ou l'inverse
+            </summary>
+            <response code="200"></response>
+            <response code="400">Une erreur côté serveur</response>
+            <remarks>Accessible si role Admin</remarks>
+        </member>
+    </members>
+</doc>
