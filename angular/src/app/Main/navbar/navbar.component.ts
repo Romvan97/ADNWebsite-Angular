@@ -1,4 +1,4 @@
-import { Component, HostListener, OnInit, ViewChild } from '@angular/core';
+import { Component, HostListener, OnInit, ViewChild, Input } from '@angular/core';
 
 //!!! installer angularMaterial pour utiliser cet evenement
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
@@ -10,7 +10,11 @@ import { AvatarModule } from 'primeng/avatar';
 import { Output, EventEmitter } from '@angular/core';
 import { UserLog } from 'src/app/Models/User/userLog.model';
 import { ConnectionService } from 'src/app/services/connection.service';
-
+import { NavbarService } from 'src/app/services/navbar.service';
+import { jsDocComment } from '@angular/compiler';
+import { Observable, Observer } from 'rxjs';
+// pour le scroll
+import { fromEvent, interval, window, map, take, mergeAll } from 'rxjs';
 
 @Component({
   selector: 'app-navbar',
@@ -25,7 +29,6 @@ export class NavbarComponent implements OnInit {
   // liste des films
   moviesForView: Movie[] = [];
 
-  //   items!: MenuItem[];
 
 
   //visibilité de la navbar
@@ -42,6 +45,7 @@ export class NavbarComponent implements OnInit {
 
   // On est sur mobile ou pc
   mobile?: boolean;
+  scroll?: Observable<boolean>;
 
   // variables pour l'autocompletion
   text?: string;
@@ -54,12 +58,34 @@ export class NavbarComponent implements OnInit {
   //utilisateur connecté
   currentUser!: UserLog;
 
-  constructor(private breakpoint$: BreakpointObserver,
+// Referme le menu si l'hostListener detecte le scroll vers le bas
+
+@HostListener('window: mousewheel')
+onMousewheel($event:Event) {
+  onwheel = e => {
+    if(e.deltaY >= 0){
+
+ this.isBlurAvatar = true;
+  this.isBlurBurgerMenu = true;
+  this.isBlur = true;
+
+  }}
+
+
+ 
+};
+
+
+  constructor(
+    private breakpoint$: BreakpointObserver,
+    
     private _getMoviesService: MovieService,
     private _connectionInfoService: ConnectionService,
+    private _navbarService: NavbarService,
+    
   ) {
 
-   
+
 
     // Observe Breakpoint for menu mobile/pc
     this.breakpoint$.observe(["(max-width: 700px)"]).subscribe((result: BreakpointState) => {
@@ -72,6 +98,12 @@ export class NavbarComponent implements OnInit {
       }
 
     });
+
+
+
+    // remonter les sous menu si l'utilisateur scroll vers le bas
+
+   
 
   }
 
@@ -101,7 +133,7 @@ export class NavbarComponent implements OnInit {
   }
 
 
-// Ouverture ou fermeture du menu si on clique sur le burger
+  // Ouverture ou fermeture du menu si on clique sur le burger
   onBlurBurgerMenu() {
 
     if (!this.isBlur || !this.isBlurAvatar) {
@@ -135,11 +167,12 @@ export class NavbarComponent implements OnInit {
   }
 
 
-  //
+
 
   login(value: boolean): void {
     this.navbarVisibleEvent.emit(value);
   }
+
 
   logout(): void {
 
@@ -152,9 +185,19 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
 
+
+// test pour savoir si un utilisateur est connecté
     this.currentUser = this._connectionInfoService.User;
-    this.connected = this._connectionInfoService.isConnected;
-    
+
+    this.connected = this._connectionInfoService.verifyConnection();
+
+    if (sessionStorage.getItem('currentUser') != null || sessionStorage.getItem('currentUser') != undefined || localStorage.getItem('currentUser') != null || localStorage.getItem('currentUser') != null) {
+      this.connected = true;
+    }
+
+    else this.connected = false;
+
+// récupération des movies
 
     this._getMoviesService.getMovies().subscribe({
 

@@ -547,11 +547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\LocalModel\\LocalModel.csproj",
+      "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\LocalModel\\LocalModel.csproj",
       "projectName": "LocalModel",
-      "projectPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\LocalModel\\LocalModel.csproj",
+      "projectPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\LocalModel\\LocalModel.csproj",
       "packagesPath": "C:\\Users\\vanmo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\LocalModel\\obj\\",
+      "outputPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\LocalModel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vanmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -568,8 +568,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\DAL\\DAL.csproj"
+            "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\DAL\\DAL.csproj"
             }
           }
         }

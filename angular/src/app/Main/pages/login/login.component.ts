@@ -7,6 +7,7 @@ import { NavbarService } from 'src/app/services/navbar.service';
 import { login_Form } from './formulaire/login.form';
 import { Router } from '@angular/router';
 import { Message, MessageService } from 'primeng/api';
+import { Output, EventEmitter } from '@angular/core';
 
 
 @Component({
@@ -16,6 +17,10 @@ import { Message, MessageService } from 'primeng/api';
   providers: [MessageService]
 })
 export class LoginComponent implements OnInit {
+
+
+@Output()
+ImConnectedEvent = new EventEmitter<boolean>();
 
   isValid: boolean = true;
   form: FormGroup;
@@ -60,12 +65,14 @@ export class LoginComponent implements OnInit {
 
           if (this.rememberMe) {
             localStorage.setItem('currentUser', JSON.stringify(this.userLog))
+            
           }
           else {
             sessionStorage.setItem('currentUser', JSON.stringify(this.userLog))
           }
-
-          this._router.navigate(['/home'])
+this.ImConnectedEvent.emit(true)
+this._router.navigateByUrl('/home').then(() =>this._router.navigate(['/home']))
+          
         }
       });
 

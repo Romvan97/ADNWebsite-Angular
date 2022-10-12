@@ -172,6 +172,7 @@
         white-space: nowrap;
         color: white;
         margin-right: -1px;
+        cursor: pointer;
         >span.pi.pi-search {
             font-size: 1.2rem;
             color: white;
@@ -219,10 +220,12 @@
     
     a.LinkiconSearchInmenu {
         line-height: 85px;
+        cursor: pointer;
     }
     
     a.LinkSearchInmenu {
         line-height: 70px;
+        cursor: pointer;
          ::after {
             content: "";
             position: absolute;
@@ -238,6 +241,7 @@
     
     a.LinkSearchInmenudown {
         line-height: 70px;
+        cursor: pointer;
          ::after {
             content: "";
             position: absolute;
@@ -1486,6 +1490,7 @@
     
     .Connexion,
     .Deconnexion {
+        cursor: pointer;
         line-height: 40px;
         font-family: 'Poppins';
         font-weight: 200;

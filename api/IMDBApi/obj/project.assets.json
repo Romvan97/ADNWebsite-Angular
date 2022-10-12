@@ -7044,11 +7044,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\IMDBApi\\IMDBApi.csproj",
+      "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\IMDBApi\\IMDBApi.csproj",
       "projectName": "IMDBApi",
-      "projectPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\IMDBApi\\IMDBApi.csproj",
+      "projectPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\IMDBApi\\IMDBApi.csproj",
       "packagesPath": "C:\\Users\\vanmo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\IMDBApi\\obj\\",
+      "outputPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\IMDBApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vanmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7065,8 +7065,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\LocalModel\\LocalModel.csproj": {
-              "projectPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\LocalModel\\LocalModel.csproj"
+            "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\LocalModel\\LocalModel.csproj": {
+              "projectPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\LocalModel\\LocalModel.csproj"
             }
           }
         }

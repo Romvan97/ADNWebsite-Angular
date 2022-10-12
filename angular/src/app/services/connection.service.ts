@@ -38,8 +38,8 @@ export class ConnectionService {
       // d'abord tester si le token est valide en faisant une requete au serveur
       this._loginService.getUser(this._currentUser).subscribe({
         next: (userInfo) => this._userReceivetoTest = userInfo,
-        error: (error) => console.log('errreeeeeeeeeeeeeeeeeuur'),
-        complete: () => console.log(this._userReceivetoTest)
+        error: (error) => null,
+        complete: () => null,
       });
 
 
@@ -61,6 +61,40 @@ export class ConnectionService {
 
     return this._currentUser;
 
+  }
+
+  verifyConnection(): boolean{
+    let localStorageObject = localStorage.getItem('currentUser');
+    let sessionStorageObject = sessionStorage.getItem('currentUser');
+
+
+    if (localStorageObject != null) {
+      this._currentUser = JSON.parse(localStorageObject);
+    }
+    if (sessionStorageObject != null) {
+      this._currentUser = JSON.parse(sessionStorageObject);
+    }
+
+    if (this._currentUser != null || this._currentUser != undefined) {
+
+      // d'abord tester si le token est valide en faisant une requete au serveur
+      this._loginService.getUser(this._currentUser).subscribe({
+        next: (userInfo) => this._userReceivetoTest = userInfo,
+        error: (error) => null,
+        complete: () => null,
+      });
+
+
+      if (this._userReceivetoTest != undefined && this._userReceivetoTest.firstName == this._currentUser.firstName) {
+        this._IsValid = true;
+        return true;
+      }
+      else {
+        this._IsValid = false;
+        return false;
+      }
+    }
+    else return false;
   }
 
 }

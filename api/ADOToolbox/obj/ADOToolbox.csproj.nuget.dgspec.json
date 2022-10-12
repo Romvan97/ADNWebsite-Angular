@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\ADOToolbox\\ADOToolbox.csproj": {}
+    "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\ADOToolbox\\ADOToolbox.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\ADOToolbox\\ADOToolbox.csproj": {
+    "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\ADOToolbox\\ADOToolbox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\ADOToolbox\\ADOToolbox.csproj",
+        "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\ADOToolbox\\ADOToolbox.csproj",
         "projectName": "ADOToolbox",
-        "projectPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\ADOToolbox\\ADOToolbox.csproj",
+        "projectPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\ADOToolbox\\ADOToolbox.csproj",
         "packagesPath": "C:\\Users\\vanmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\ADOToolbox\\obj\\",
+        "outputPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\ADOToolbox\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanmo\\AppData\\Roaming\\NuGet\\NuGet.Config",

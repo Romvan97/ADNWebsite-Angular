@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\IMDBApi\\IMDBApi.csproj": {}
+    "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\IMDBApi\\IMDBApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\ADOToolbox\\ADOToolbox.csproj": {
+    "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\ADOToolbox\\ADOToolbox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\ADOToolbox\\ADOToolbox.csproj",
+        "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\ADOToolbox\\ADOToolbox.csproj",
         "projectName": "ADOToolbox",
-        "projectPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\ADOToolbox\\ADOToolbox.csproj",
+        "projectPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\ADOToolbox\\ADOToolbox.csproj",
         "packagesPath": "C:\\Users\\vanmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\ADOToolbox\\obj\\",
+        "outputPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\ADOToolbox\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\DAL\\DAL.csproj": {
+    "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\vanmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\ADOToolbox\\ADOToolbox.csproj": {
-                "projectPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\ADOToolbox\\ADOToolbox.csproj"
+              "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\ADOToolbox\\ADOToolbox.csproj": {
+                "projectPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\ADOToolbox\\ADOToolbox.csproj"
               }
             }
           }
@@ -132,14 +132,14 @@
         }
       }
     },
-    "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\IMDBApi\\IMDBApi.csproj": {
+    "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\IMDBApi\\IMDBApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\IMDBApi\\IMDBApi.csproj",
+        "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\IMDBApi\\IMDBApi.csproj",
         "projectName": "IMDBApi",
-        "projectPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\IMDBApi\\IMDBApi.csproj",
+        "projectPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\IMDBApi\\IMDBApi.csproj",
         "packagesPath": "C:\\Users\\vanmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\IMDBApi\\obj\\",
+        "outputPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\IMDBApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -156,8 +156,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\LocalModel\\LocalModel.csproj": {
-                "projectPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\LocalModel\\LocalModel.csproj"
+              "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\LocalModel\\LocalModel.csproj": {
+                "projectPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\LocalModel\\LocalModel.csproj"
               }
             }
           }
@@ -215,14 +215,14 @@
         }
       }
     },
-    "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\LocalModel\\LocalModel.csproj": {
+    "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\LocalModel\\LocalModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\LocalModel\\LocalModel.csproj",
+        "projectUniqueName": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\LocalModel\\LocalModel.csproj",
         "projectName": "LocalModel",
-        "projectPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\LocalModel\\LocalModel.csproj",
+        "projectPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\LocalModel\\LocalModel.csproj",
         "packagesPath": "C:\\Users\\vanmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\LocalModel\\obj\\",
+        "outputPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\LocalModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -239,8 +239,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\vanmo\\Desktop\\LaboAngulRepos\\api\\DAL\\DAL.csproj"
+              "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\vanmo\\Desktop\\ADNWebsite\\api\\DAL\\DAL.csproj"
               }
             }
           }

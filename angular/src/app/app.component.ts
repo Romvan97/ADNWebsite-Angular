@@ -11,8 +11,11 @@ import { NavbarService } from './services/navbar.service';
 export class AppComponent implements OnInit{
   title = 'ADN';
 
+
+
+
 // Récupération du token pour voir si connecté ou non
-connected: boolean = false;
+connected?: boolean = true;
 
 // navbar visible ou pas
 navbarVisibleApp?: boolean ;
@@ -35,4 +38,5 @@ navbarVisibleApp?: boolean ;
       this._navbarService.hide();
     }
 
+  
 }

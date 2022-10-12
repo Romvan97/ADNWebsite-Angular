@@ -1,0 +1,76 @@
+:host ::ng-deep {
+    #MainContainer {
+        height: 3000px;
+        width: 100%;
+        #MainContainer-Left {
+            width: 320px;
+            background-color: (255, 255, 255, 0.5);
+            display: inline-block;
+            vertical-align: top;
+            padding-right: 15px;
+            box-sizing: border-box;
+            margin: 15px 0px;
+            height: 1030px;
+            padding-right: 15px;
+            >#first-container-left {
+                height: 100%;
+                border-radius: 4px;
+                background-color: rgb(48, 49, 50);
+                >.infos-generales {
+                    border: 1px solid green;
+                    width: 100%;
+                    height: 303px;
+                    >.photo {
+                        padding: 16px;
+                        text-align: center;
+                        position: relative;
+                        >a.changeAvatar {
+                            width: 180px;
+                            height: 180px;
+                            max-width: 100%;
+                            display: inline-block;
+                            vertical-align: top;
+                            text-decoration: none;
+                            position: relative;
+                            cursor: default;
+                            >.Avatar {
+                                border: 1px solid blue;
+                                width: 100%;
+                                height: 100%;
+                                display: block;
+                                border-radius: 100%;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    >.UserName {
+                        margin: 0px 0px 15px;
+                    }
+                    >.infos-secondairesphoto {
+                        margin: 0px 0px 15px;
+                    }
+                }
+            }
+        }
+        #MainContainer-Right {
+            width: 320px;
+            background-color: (255, 255, 255, 0.5);
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+            border-radius: 4px;
+            margin: 15px 0px;
+            height: 468px;
+            background-color: rgb(48, 49, 50);
+            z-index: -2!important;
+            >#first-container-right {
+                margin-top: 10px;
+                margin-right: 25px;
+                margin-left: 25px;
+                background-color: rgb(48, 49, 50);
+                z-index: -1!important;
+            }
+            >#second-container-left {}
+        }
+    }
+}
