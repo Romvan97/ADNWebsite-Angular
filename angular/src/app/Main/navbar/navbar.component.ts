@@ -15,6 +15,7 @@ import { jsDocComment } from '@angular/compiler';
 import { Observable, Observer } from 'rxjs';
 // pour le scroll
 import { fromEvent, interval, window, map, take, mergeAll } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -82,7 +83,7 @@ onMousewheel($event:Event) {
     private _getMoviesService: MovieService,
     private _connectionInfoService: ConnectionService,
     private _navbarService: NavbarService,
-    
+    private _router: Router,
   ) {
 
 
@@ -181,6 +182,7 @@ onMousewheel($event:Event) {
 
     this.connected = false;
     this.isBlurAvatar = true; // remonte le sous menu si se deco
+    this._router.navigateByUrl('/home').then(() =>this._router.navigate(['/home']))
   }
 
   ngOnInit(): void {

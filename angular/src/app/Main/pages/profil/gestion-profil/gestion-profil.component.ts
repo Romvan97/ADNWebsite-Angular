@@ -11,6 +11,8 @@ import { NavbarService } from 'src/app/services/navbar.service';
 export class GestionProfilComponent implements OnInit {
 
   userLog!: UserLog;
+userAge!: Number;
+userBirthdate!: Date;
 
   constructor(private _navbarService: NavbarService, private _connectionService:ConnectionService) { }
 
@@ -18,9 +20,30 @@ export class GestionProfilComponent implements OnInit {
 this._navbarService.show()
 
 this.userLog = this._connectionService.User
-
+this.getAgeAndBirthdateofUser()
 
 
   }
 
+
+
+
+getAgeAndBirthdateofUser(){
+
+  let today = new Date().getFullYear()
+let userdat = Date.parse(this.userLog.birthDate)
+let userbirthdateyear = new Date(userdat).getFullYear()
+
+
+this.userAge = today - userbirthdateyear;
+this.userBirthdate = new Date(userdat);
+
 }
+
+
+
+}
+
+
+
+

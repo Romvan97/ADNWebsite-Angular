@@ -1,6 +1,5 @@
 import { NgIfContext } from '@angular/common';
 import { Injectable } from '@angular/core';
-import { User } from '../Models/User/createUserForm.model';
 import { UserLog } from '../Models/User/userLog.model';
 import { UserToReceive } from '../Models/User/UserToReceive.model';
 import { LoginService } from './API_Services/login.service';

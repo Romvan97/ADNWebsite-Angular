@@ -28,7 +28,6 @@ export class LoginService {
         'Authorization': `Bearer ${user.token}`
       });
     
-   console.log(header)
 
     return this._client.get<UserToReceive>((`${environment.apiUrl}api/User/${user.id}`), {headers: header})
   }

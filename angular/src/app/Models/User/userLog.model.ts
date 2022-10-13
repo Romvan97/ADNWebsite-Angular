@@ -3,7 +3,7 @@ export interface UserLog{
     email: string,
     firstName: string,
     lastName: string,
-    birthDate: Date,
+    birthDate: string,
     isActive: boolean,
     isAdmin: boolean,
     token: string,

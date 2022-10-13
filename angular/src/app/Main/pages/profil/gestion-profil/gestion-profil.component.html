@@ -25,7 +25,14 @@
                 </div>
 
                 <div class="infos-secondaires">
-
+                    <ul class="cont">
+                        <li class="vide"></li>
+                        <li class="age">Né le {{userBirthdate | date: 'dd/MM/yyyy'}} ({{userAge}} ans)</li>
+                        <li class="role">
+                            <span *ngIf="userLog.isAdmin" class="admin">Admin &#9794;</span>
+                            <span *ngIf="!userLog.isAdmin" class="member">Member &#9792;</span>
+                        </li>
+                    </ul>
                 </div>
 
 

@@ -31,9 +31,10 @@ import { ToastModule } from 'primeng/toast';
 import { FeaturenotavailableComponent } from './Main/featurenotavailable/featurenotavailable.component';
 import { SkeletonModule } from 'primeng/skeleton';
 import { GestionProfilComponent } from './Main/pages/profil/gestion-profil/gestion-profil.component';
-
-
-
+import { SubscribeComponent } from './Main/pages/subscribe/subscribe.component';
+import {RadioButtonModule} from 'primeng/radiobutton';
+import {InputMaskModule} from 'primeng/inputmask';
+import {CalendarModule} from 'primeng/calendar';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { GestionProfilComponent } from './Main/pages/profil/gestion-profil/gesti
     LoginComponent,
     FeaturenotavailableComponent,
     GestionProfilComponent,
+    SubscribeComponent,
 
 
   ],
@@ -71,8 +73,11 @@ import { GestionProfilComponent } from './Main/pages/profil/gestion-profil/gesti
     MessageModule,
     MessagesModule,
     ToastModule,
-    SkeletonModule
-
+    SkeletonModule,
+    RadioButtonModule,
+    InputMaskModule,
+    CalendarModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
