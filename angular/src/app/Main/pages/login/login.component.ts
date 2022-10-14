@@ -90,19 +90,6 @@ this._router.navigateByUrl('/home').then(() =>this._router.navigate(['/home']))
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 

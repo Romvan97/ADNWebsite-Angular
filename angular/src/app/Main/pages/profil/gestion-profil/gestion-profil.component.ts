@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { UserLog } from 'src/app/Models/User/userLog.model';
 import { AvatarService } from 'src/app/services/avatar.service';
 import { ConnectionService } from 'src/app/services/connection.service';
@@ -17,7 +18,8 @@ userBirthdate!: Date;
 avatarOfUser!: string;
 usergender!: string;
 
-  constructor(private _navbarService: NavbarService, private _connectionService:ConnectionService, private _avatarService: AvatarService) { }
+  constructor(private _navbarService: NavbarService, private _connectionService:ConnectionService, private _avatarService: AvatarService,
+    private _router: Router) { }
 
   ngOnInit(): void {
 
@@ -54,6 +56,9 @@ this.userAge = today - userbirthdateyear;
 this.userBirthdate = new Date(userdat);
 
 }
+
+
+
 
 
 
