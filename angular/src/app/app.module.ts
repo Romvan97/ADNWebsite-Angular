@@ -35,6 +35,8 @@ import { SubscribeComponent } from './Main/pages/subscribe/subscribe.component';
 import {RadioButtonModule} from 'primeng/radiobutton';
 import {InputMaskModule} from 'primeng/inputmask';
 import {CalendarModule} from 'primeng/calendar';
+import { SubscribeAvatarComponent } from './Main/pages/subscribe/subscribe-avatar/subscribe-avatar.component';
+import { MessageService } from 'primeng/api';
 
 @NgModule({
   declarations: [
@@ -47,6 +49,7 @@ import {CalendarModule} from 'primeng/calendar';
     FeaturenotavailableComponent,
     GestionProfilComponent,
     SubscribeComponent,
+    SubscribeAvatarComponent,
 
 
   ],
@@ -79,7 +82,7 @@ import {CalendarModule} from 'primeng/calendar';
     CalendarModule,
     
   ],
-  providers: [],
+  providers: [MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

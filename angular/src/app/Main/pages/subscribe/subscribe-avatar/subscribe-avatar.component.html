@@ -1,0 +1,42 @@
+<p-toast></p-toast>
+<p-toast position="top-right" key="msg"></p-toast>
+
+
+
+<div class="main-container">
+
+    <a class="adnlogo" href="/">
+        <img class="logo" src="assets/img/adn_logo_lightblue.svg" />
+    </a>
+    <div class="containera">
+
+        <div class="main-title-container">
+            <div class="title-container">
+                <h1 class="title">
+                    <span class="title-texte">BIENVENUE {{userToCreat.firstName}} !</span>
+                </h1>
+                <div class="avance">2 / 2</div>
+            </div>
+        </div>
+
+        <div class="form-main-container">
+            <h4>Choisissez un avatar pour continuer...</h4>
+            <div class="background-form-container">
+
+                <div class="avatar-container">
+
+                    <li *ngFor="let avatar of allAvatar, index as i">
+                        <a>
+
+                            <img [src]="avatar" (click)="avatarChoise(i)" />
+
+                        </a>
+                    </li>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

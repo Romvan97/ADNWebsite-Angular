@@ -16,6 +16,7 @@ import { Observable, Observer } from 'rxjs';
 // pour le scroll
 import { fromEvent, interval, window, map, take, mergeAll } from 'rxjs';
 import { Router } from '@angular/router';
+import { AvatarService } from 'src/app/services/avatar.service';
 
 @Component({
   selector: 'app-navbar',
@@ -58,6 +59,8 @@ export class NavbarComponent implements OnInit {
 
   //utilisateur connecté
   currentUser!: UserLog;
+  // avatar de l'utilisateur
+avatarOfUser!: string;
 
 // Referme le menu si l'hostListener detecte le scroll vers le bas
 
@@ -79,7 +82,7 @@ onMousewheel($event:Event) {
 
   constructor(
     private breakpoint$: BreakpointObserver,
-    
+    private _avatarService: AvatarService,
     private _getMoviesService: MovieService,
     private _connectionInfoService: ConnectionService,
     private _navbarService: NavbarService,
@@ -186,6 +189,12 @@ onMousewheel($event:Event) {
   }
 
   ngOnInit(): void {
+
+    let avata = localStorage.getItem('avatarUser');
+    if(avata != null){
+      this.avatarOfUser = JSON.parse(avata)
+    }
+    else{this.avatarOfUser = this._avatarService.avatar}
 
 
 // test pour savoir si un utilisateur est connecté

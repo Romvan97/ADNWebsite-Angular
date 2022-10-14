@@ -7,7 +7,7 @@
             <div class="infos-generales">
                 <div class="photo">
                     <a class="changeAvatar">
-                        <img class="Avatar" src="/assets/img/avatars/ch20_bg13_green0_188.jpg">
+                        <img class="Avatar" [src]="avatarOfUser">
                         <span class="pi pi-pencil"></span>
                     </a>
                     <div class="acount-user-action">
@@ -29,8 +29,10 @@
                         <li class="vide"></li>
                         <li class="age">Né le {{userBirthdate | date: 'dd/MM/yyyy'}} ({{userAge}} ans)</li>
                         <li class="role">
-                            <span *ngIf="userLog.isAdmin" class="admin">Admin &#9794;</span>
-                            <span *ngIf="!userLog.isAdmin" class="member">Member &#9792;</span>
+                            <span *ngIf="userLog.isAdmin && usergender == 'homme'" class="admin">Admin &#9794;</span>
+                            <span *ngIf="userLog.isAdmin && usergender == 'femme'" class="admin">Admin &#9792;</span>
+                            <span *ngIf="!userLog.isAdmin && usergender == 'homme'" class="member">Member &#9794;</span>
+                            <span *ngIf="!userLog.isAdmin && usergender == 'femme'" class="member">Member &#9792;</span>
                         </li>
                     </ul>
                 </div>

@@ -5,6 +5,7 @@ import { HomeComponent } from './Main/home/home.component';
 import { Page404Component } from './Main/page404/page404.component';
 import { LoginComponent } from './Main/pages/login/login.component';
 import { GestionProfilComponent } from './Main/pages/profil/gestion-profil/gestion-profil.component';
+import { SubscribeAvatarComponent } from './Main/pages/subscribe/subscribe-avatar/subscribe-avatar.component';
 import { SubscribeComponent } from './Main/pages/subscribe/subscribe.component';
 
 const routes: Routes = [
@@ -23,7 +24,7 @@ const routes: Routes = [
   {path: 'featureNot', component: FeaturenotavailableComponent},
   {path: 'mon-espace', component: GestionProfilComponent},
   {path: 'subscription', component: SubscribeComponent},
-
+{path: 'subscribe-avatar', component: SubscribeAvatarComponent},
 
 
   { path: '404', component: Page404Component },

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserLog } from 'src/app/Models/User/userLog.model';
+import { AvatarService } from 'src/app/services/avatar.service';
 import { ConnectionService } from 'src/app/services/connection.service';
 import { NavbarService } from 'src/app/services/navbar.service';
 
@@ -13,10 +14,24 @@ export class GestionProfilComponent implements OnInit {
   userLog!: UserLog;
 userAge!: Number;
 userBirthdate!: Date;
+avatarOfUser!: string;
+usergender!: string;
 
-  constructor(private _navbarService: NavbarService, private _connectionService:ConnectionService) { }
+  constructor(private _navbarService: NavbarService, private _connectionService:ConnectionService, private _avatarService: AvatarService) { }
 
   ngOnInit(): void {
+
+    let usergenderjson = localStorage.getItem('userGender');
+    if(usergenderjson != null){
+      this.usergender = JSON.parse(usergenderjson)
+    }
+
+    let avata = localStorage.getItem('avatarUser');
+    if(avata != null){
+      this.avatarOfUser = JSON.parse(avata)
+    }
+    else{this.avatarOfUser = this._avatarService.avatar}
+
 this._navbarService.show()
 
 this.userLog = this._connectionService.User
